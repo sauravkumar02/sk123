@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="AboutUs.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="CategoryComponent.css">
+    <link rel="stylesheet" href="DiscoverComponent.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="ProductListing.css">
+    <link rel="stylesheet" href="HeroSection.css">
+    <link rel="stylesheet" href="Maps.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div id="logo">
+                <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!--<h1><a href="index.html">Regna</a></h1>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+        </div>
+    </header>
+
+    <div class="hero-container">
+        <div class="hero-image transition duration-500 ease-in-out">
+            <div transitionname="example" transitionappeartimeout="500">
+                <div class="parent">
+                    <h1 class="text1">Celebrate your next wedding with us here</h1>
+                    <div class="section">
+                        <div class="segment"><label class="top-text">OCCASSION</label><input type="text"
+                                class="bottom-text hero-input" placeholder="What kind of event?"></div>
+                        <div class="verticalLine"></div>
+                        <div class="segment"><label class="top-text">LOCATION</label><input type="text"
+                                class="bottom-text hero-input" placeholder="Where?"></div>
+                        <div class="verticalLine"></div>
+                        <div class="segment"><label class="top-text">VENUE</label><input type="text"
+                                class="bottom-text hero-input" placeholder="Party or Conference?"></div>
+                        <div class="divider"></div><a href="/listings"><button class="search-icon invisible-border"><svg
+                                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
+                                    class="svg-inline--fa fa-search fa-w-16 " role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="magnify">
+                                    <path fill="currentColor"
+                                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                    </path>
+                                </svg></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-9 md:m-14">
+        <p class="cat-title mt-3 text-xl md:text-3xl pl-4 pb-2" style="text-align: left;">Categories</p>
+        <div id="cat-grid-cont" class="pl-6 pr-6">
+            <div id="cat-col"><img
+                    class="cat_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                    src="/media/categoryOccasion.14e89cb6.png" alt="">
+                <p class="cat-p text-lg md:text-2xl pt-3" style="text-align: left;">Occasion</p>
+            </div>
+            <div id="cat-col"><img
+                    class="cat_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                    src="/media/categoryLocations.bca85bb9.png" alt="">
+                <p class="cat-p text-lg md:text-2xl pt-3" style="text-align: left;">Locations</p>
+            </div>
+            <div id="cat-col"><img
+                    class="cat_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                    src="/media/categoryVenu.b15f7cb7.png" alt="">
+                <p class="cat-p text-lg md:text-2xl pt-3" style="text-align: left;">Venue</p>
+            </div>
+        </div>
+    </div><br>
+    <div id="au-container">
+        <div class="m-9 md:m-14 au-align-vert">
+            <p class="au-title text-xl md:text-3xl mt-5 md:mt-3 pl-4">About Us</p>
+            <div class="au-align-hor">
+                <div class="au-img-cont p-4">
+                    <div id="au-img-left"><img src="/media/1.6fbad35a.png" id="img1" class="imgbig" alt="Missing"><img
+                            src="/media/2.18b88274.png" id="img2" class="imghide" alt="Missing"></div>
+                    <div id="au-img-right"><img src="/media/3.bdfee6bd.png" id="img3" class="imghide" alt="Missing">
+                    </div>
+                </div>
+                <div id="au-text">
+                    <p class="au-text-title text-2xl md:text-2xl">Unique spaces</p>
+                    <p class="au-para">Every day we uncover new, creative spaces - from neighborhood
+                        galleries to hidden rooftops and beyond.</p>
+                    <p class="au-text-title text-2xl md:text-2xl">Honest pricing</p>
+                    <p class="au-para">Our spaces are priced to fit your budget. Pay by the hour without
+                        worrying about hidden fees.</p>
+                    <p class="au-text-title text-2xl md:text-2xl">Smooth bookings</p>
+                    <p class="au-para">No more messy contracts. We build the tools to make booking a space
+                        as easy as the click of a button.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-column m-9 md:m-14" id="discover">
+        <p class="disc-title text-xl md:text-3xl pl-4" style="text-align: left;">Discover</p>
+        <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                    style="transform: translate3d(-4746px, 0px, 0px); transition: all 1s ease 0s; width: 7458px;">
+                    <div class="owl-item cloned" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Locations</p>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverPartyCollection.cebc312e.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Party Collection</p>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned active" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Locations</p>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverPartyCollection.cebc312e.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Party Collection</p>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 670px; margin-right: 8px;">
+                        <div class="flex flex-col justify-items-stretch p-4"><img
+                                class="disc_img transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+                                src="/media/discoverConferenceCollection.d2bcaf72.png" alt="">
+                            <p class="disc-p text-lg md:text-2xl pt-3" style="text-align: left;">Conference Collection
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span
+                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                    class="owl-next"><span aria-label="Next">›</span></button></div>
+            <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot active"><span></span></button></div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="box" class="relative">
+            <p class="pb-3">Let's Talk! <b>contact@spacelender.com</b></p><button id="contact-btn" type="button"
+                class="btn btn-light">Contact Us</button>
+            <div class="social"><a href="https://instagram.com/spacelender.co.in"><svg aria-hidden="true"
+                        focusable="false" data-prefix="fab" data-icon="instagram"
+                        class="svg-inline--fa fa-instagram fa-w-14 icon" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg></a><a href="https://facebook.com/spacelender.co.in"><svg aria-hidden="true" focusable="false"
+                        data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10 icon"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                        </path>
+                    </svg></a><a href="https://linkedin.com/company/spacelender"><svg aria-hidden="true"
+                        focusable="false" data-prefix="fab" data-icon="twitter"
+                        class="svg-inline--fa fa-twitter fa-w-16 icon" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                        </path>
+                    </svg></a></div>
+            <p class="pb-2" id="copyright">© Copyrights All Rights Reserved</p>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="/js/bundle.js"></script>
+    <script src="/js/vendors~main.chunk.js"></script>
+    <script src="/js/main.chunk.js"></script>
+</body>
+
+</html>
